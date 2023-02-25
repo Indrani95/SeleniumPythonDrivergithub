@@ -7,7 +7,7 @@ import time
 class MyTestCase(unittest.TestCase):
 
     def test_launch_browser(self):
-        filePath = "\\drivers\\chromedriver.exe"
+        filePath = "//drivers//chromedriver.exe"
         driver = webdriver.Chrome(filePath)
         time.sleep(1)
         url = "https://www.google.com/"
